@@ -5,7 +5,10 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   basePath: "/my-pomodoro",
-  assetPrefix: "/my-pomodoro/",
+
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
