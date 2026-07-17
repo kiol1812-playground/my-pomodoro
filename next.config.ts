@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   output: "export",
   basePath: "/my-pomodoro",
+  assetPrefix: "/my-pomodoro/",
 };
 
 export default nextConfig;
